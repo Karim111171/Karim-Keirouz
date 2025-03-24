@@ -27,6 +27,25 @@ header {
 
 .header-text {
     text-align: left;
+    color: white;
+}
+
+.header-text a {
+    color: inherit; /* Hérite de la couleur du parent (.header-text) */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+.header-text a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol si vous le souhaitez */
+}
+
+.email-link {
+    color: inherit; /* Hérite de la couleur du parent (.header-text) */
+    text-decoration: none; /* Supprime le soulignement par défaut du lien */
+}
+
+.email-link:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol si vous le souhaitez */
 }
 
 .header-image {
@@ -49,9 +68,6 @@ header p {
 }
 
 /* Header Text Styles */
-.header-text {
-    text-align: left;
-}
 
 .header-text p {
     margin: 0.5px 0; /* Réduire l'espace entre les lignes */
